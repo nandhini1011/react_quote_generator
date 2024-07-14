@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-image: url("./assets/background.jpeg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.card{
+  background-color: antiquewhite;
+  border: 1px solid darkgreen;
+  height: auto;
+  width: 50rem ;
+  padding: 2rem;
+}
+
+.topic{
+  font-size: 3rem;
+  color: darkblue;
+}
+
+.quote{
+  font-size: 1.5rem;
+  color : black;
+}
+
+.getquote{
+  background-color: blue;
+  color: white;
+  padding: 15px;
+}
+
+.getquote:hover{
+  background-color: blueviolet;
+  font-weight: bold;
+  color: black;
+}
